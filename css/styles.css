@@ -12,7 +12,7 @@
 
 .hcenter p {
 	margin-top: 2px;
-	color: #00f3ff;
+	color: #9d4910;
 	text-align: center;}
  
 .vcenter {
@@ -23,11 +23,11 @@
     float: none; }
 
 .bk-orange { 
-	background: #648CA4; }
+	background: #f5a732; }
 
 .menuTitle {
-	color: #fff;
-	text-shadow: 1px 1px #000; }
+	color: #000000;
+	text-shadow: 3px 1px #eb9514; }
 
 .drinkItem {
 	text-align: left;
@@ -37,13 +37,13 @@
 
 .drinkPrice {
 	text-align: left;
-	color: #00f3ff;
+	color: #438696;
 	font-weight: 400;
 	font-family: 'Noto Kufi Arabic';
 }
 
 .drinkInfo {
-	color: #fff; }
+	color: #ffffff; }
  
 ul {
 	list-style-type: none;
