@@ -52,3 +52,13 @@ ul {
 
 .menuItem {
 	padding: 20px 0;  }
+
+.footer {
+	background: #9d4910;
+	height: 30px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.2rem;
+}
