@@ -23,11 +23,22 @@
     float: none; }
 
 .bk-orange { 
-	background: #f5a732; }
+	background: #f5a732;
+	
+}
 
 .menuTitle {
 	color: #000000;
-	text-shadow: 3px 1px #eb9514; }
+	text-shadow: 3px 1px #eb9514; 
+	opacity: 0;
+	animation: slideRight 1s ease forwards;
+	animation-delay: calc(0.2s * var(--i));
+}
+.menuTitlep {
+	opacity: 0;
+		animation: slideTop 1s ease forwards;
+		animation-delay: calc(0.2s * var(--i));
+}
 
 .drinkItem {
 	text-align: left;
@@ -51,7 +62,11 @@ ul {
 	padding: 0; }
 
 .menuItem {
-	padding: 20px 0;  }
+	padding: 20px 0;
+	opacity: 0;
+		animation: slideTop 1s ease forwards;
+		animation-delay: calc(0.2s * var(--i));
+}
 
 .footer {
 	background: #9d4910;
@@ -61,4 +76,27 @@ ul {
 	justify-content: center;
 	text-align: center;
 	font-size: 1.2rem;
+}
+
+
+@keyframes slideRight {
+	0% {
+		transform: translateX(-100px);
+	}
+
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes slideTop {
+	0% {
+		transform: translateY(50px);
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
 }
